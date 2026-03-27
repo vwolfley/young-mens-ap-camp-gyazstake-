@@ -1,0 +1,28 @@
+humanstxt.org/
+# The humans responsible & technology colophon
+==============================================
+
+# TEAM
+    	Name: Vern Wolfley
+    	Role: Developer
+    	Twitter: @vernwolfley
+
+# THANKS
+	Brother Cory Webster
+	Sister Trista Kruckenberg
+
+# TECHNOLOGY COLOPHON
+
+    Standards: JavaScript, HTML5, CSS3
+    Components: React, Vite
+
+# SITE
+
+    Site Name: Moroni's Promise
+    Site URL: https://moronispromise.gyazs.org/
+    Version: 1.1.0
+	Last updated: 2026-03-23
+    Creation date: 2024-01-29
+	Language: English
+	Doctype: HTML5
+	IDE: VS Code

@@ -1,0 +1,33 @@
+{
+  "short_name": "moronis-promise",
+  "name": "Moroni's Promise",
+  "description": "Moroni's promise is a site giving information about the Moroni's Promise event for the Goodyear AZ Stake.",
+  "start_url": ".",
+  "lang": "en-US",
+  "dir": "auto",
+  "display": "standalone",
+  "theme_color": "#20346c",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "images/favicons/android-chrome-192x192.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "images/favicons/mstile-150x150.webp",
+      "sizes": "150x150",
+      "type": "image/webp"
+    },
+    {
+      "src": "images/favicons/android-chrome-512x512.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

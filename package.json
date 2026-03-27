@@ -1,0 +1,83 @@
+{
+  "name": "young-mens-ap-camp",
+  "version": "1.1.0",
+  "date": "2026-03-23",
+  "created": "2026-01-20",
+  "copyright": "2026",
+  "description": "This is a site giving information about the Young Men's AP Camp event for the Goodyear AZ Stake.",
+  "author": "Vern Wolfley",
+  "type": "module",
+  "homepage": ".",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run replace && vite build && explorer dist",
+    "preview": "vite preview",
+    "replace": "node replaceScripts"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-ga4": "^2.1.0",
+    "react-icons": "^5.5.0",
+    "react-photo-album": "^3.4.0",
+    "react-router-dom": "^7.12.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/vite": "^4.1.12",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "mag-prettier-config": "^1.1.4",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "replace-in-file": "^8.3.0",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.2.4"
+  },
+  "prettier": "mag-prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      "> 0.5%",
+      "last 2 versions",
+      "Firefox ESR",
+      "not dead"
+    ],
+    "development": [
+      "> 0.5%",
+      "last 2 versions",
+      "Firefox ESR",
+      "not dead"
+    ]
+  },
+  "contributors": [
+    "Vern Wolfley",
+    "David Ricks, Stake High Councilor",
+    "David Martin, Stake Young Mens Second Counselor",
+    "Gordon Thelin, Stake Presidency, Second Counselor",
+    "Jenner Holden, Stake High Councilor",
+    "Marc Inman, Stake Young Mens First Counselor",
+    "Stephen Eich, Stake High Councilor, YM President",
+    "Travis Rex, Stake Young Mens Camp Director"
+  ],
+  "license": "MIT"
+}

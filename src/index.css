@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  /* color palette for webpage */
+  --primary-color: #4f7cac;  /* blue-900 */
+  --secondary-color: #164e63;  /* Cyan-900 */
+  --accent1-color: #facc15;  /* Yellow-400 */
+  --accent2-color: #d6d3d1;  /* Stone-300 */
+
+
+  --text-main-color: #172554;  /* blue-950 */
+  --text-secondary-color: #eff6ff;  /* blue-50 */
+
+  /* font styles for webpage */
+  --heading-font: "Merriweather", serif;
+  --paragraph-font: "Inter", sans-serif;
+
+  --base-font-size: 18px;
+  --base-line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+@theme {
+    --color-main: #4f7cac;
+    --color-secondary: #164e63;
+    --color-accent-green: #499f68;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  font-family: var(--paragraph-font);
+  background-color: #fff;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  line-height: 1.2;
+}
