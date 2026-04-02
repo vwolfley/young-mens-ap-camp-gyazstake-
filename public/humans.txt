@@ -5,11 +5,9 @@ humanstxt.org/
 # TEAM
     	Name: Vern Wolfley
     	Role: Developer
-    	Twitter: @vernwolfley
 
 # THANKS
-	Brother Cory Webster
-	Sister Trista Kruckenberg
+
 
 # TECHNOLOGY COLOPHON
 
@@ -18,8 +16,8 @@ humanstxt.org/
 
 # SITE
 
-    Site Name: Moroni's Promise
-    Site URL: https://moronispromise.gyazs.org/
+    Site Name: Young Men's AP Camp 2026
+    Site URL: https://youngmensapcamp.gyazs.org/
     Version: 1.1.0
 	Last updated: 2026-03-23
     Creation date: 2024-01-29
