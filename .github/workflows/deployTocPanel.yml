@@ -31,7 +31,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: youngmensapcamp.gyazs.org/
           local-dir: dist/
           exclude: |
             **/.git*
