@@ -15,7 +15,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm run replace && vite build && explorer dist",
+    "build": "npm run replace && vite build",
+    "test:build": "npm run replace && vite build && explorer dist",
     "preview": "vite preview",
     "replace": "node replaceScripts"
   },
