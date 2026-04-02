@@ -1,7 +1,7 @@
 {
   "name": "young-mens-ap-camp",
-  "version": "1.1.0",
-  "date": "2026-03-23",
+  "version": "1.1.1",
+  "date": "2026-04-02",
   "created": "2026-01-20",
   "copyright": "2026",
   "description": "This is a site giving information about the Young Men's AP Camp event for the Goodyear AZ Stake.",
@@ -11,7 +11,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/vwolfley/young-mens-ap-camp-gyazstake-"
   },
   "scripts": {
     "dev": "vite",
