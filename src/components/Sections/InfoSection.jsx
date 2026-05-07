@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import docConfig from "../../config/DocConfig"
 import MedicalRelease from "../../docs/ym-camp-medical-forms-church-release.pdf"
 import PhotoReleaseDoc from "../../docs/photo-participant-release.pdf"
@@ -6,6 +7,7 @@ import PhotoReleaseDoc from "../../docs/photo-participant-release.pdf"
 import RegistrationImage from "../../images/registration-image.png"
 import MedicalReleaseImage from "../../images/medical-image.jpg"
 import PhotoReleaseImage from "../../images/photo-release-image.png"
+import PackingListImage from "../../images/packing-list.jpg"
 
 function InfoSection() {
   return (
@@ -94,6 +96,27 @@ function InfoSection() {
                 className="bg-accent-green border-accent-green inline-block rounded border px-8 py-4 pt-2.5 pb-2 text-xs leading-normal font-medium text-white uppercase shadow transition duration-150 ease-in-out hover:bg-green-700">
                 Photo Release Form
               </a>
+            </div>
+          </div>
+
+          <div className="shadow-secondary-1 block rounded-lg bg-white">
+            <a href="#!">
+              <img
+                className="rounded-t-lg"
+                src={PackingListImage}
+                alt="Packing List"
+              />
+            </a>
+            <div className="text-surface p-6">
+              <h5 className="mb-2 text-xl leading-tight font-medium">Packing List</h5>
+              <p className="mb-4 text-base">
+                Each participant should bring the following minimal equipment to camp.
+              </p>
+              <Link
+                to="/packing-list"
+                className="bg-accent-green border-accent-green inline-block rounded border px-8 py-4 pt-2.5 pb-2 text-xs leading-normal font-medium text-white uppercase shadow transition duration-150 ease-in-out hover:bg-green-700">
+                Packing List
+              </Link>
             </div>
           </div>
         </div>

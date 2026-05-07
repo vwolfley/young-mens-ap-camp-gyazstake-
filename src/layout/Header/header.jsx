@@ -13,7 +13,7 @@ export default function Header() {
   const links = NavLinks()
 
   return (
-    <header className="sticky top-0 z-10 flex h-24 bg-main text-blue-50">
+    <header className="sticky top-0 z-50 flex h-24 bg-main text-blue-50">
       <section className="flex items-center p-6 flex-1 justify-between">
         <div className="flex flex-row items-center gap-1 shrink-0">
           <img className="h-auto w-8 lg:w-16" src={LogoFinal} alt="Camp Logo" />
