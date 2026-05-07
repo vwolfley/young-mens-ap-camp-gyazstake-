@@ -6,12 +6,6 @@ export default function NavLinks() {
         link: "/",
         internal: true,
       },
-      // {
-      //   id: "reading-challenge",
-      //   name: "Reading Challenge",
-      //   link: "/reading-challenge",
-      //   internal: true,
-      // },
       {
         id: "registration",
         name: "Registration",
@@ -24,12 +18,12 @@ export default function NavLinks() {
         link: "/packing-list",
         internal: true,
       },
-      // {
-      //   id: "calendar",
-      //   name: "Calendar",
-      //   link: "/calendar",
-      //   internal: true,
-      // },
+      {
+        id: "directions",
+        name: "Directions",
+        link: "/directions",
+        internal: true,
+      },
       // {
       //   id: "clothing",
       //   name: "Clothing",
