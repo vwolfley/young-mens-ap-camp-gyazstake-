@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router"
 import About from "../pages/About"
-import Checklist from "../pages/Checklist"
+import PackingList from "../pages/PackingList"
 import Registration from "../pages/Registration"
 
 
@@ -9,7 +9,7 @@ const AppRoutes = () => {
     <Routes>
       <Route exact path="/" element={<About />} />
       <Route exact path="/registration" element={<Registration />} />
-      <Route exact path="/checklist" element={<Checklist />} />
+      <Route exact path="/packing-list" element={<PackingList />} />
     </Routes>
   )
 }

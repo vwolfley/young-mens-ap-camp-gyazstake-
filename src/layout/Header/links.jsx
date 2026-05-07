@@ -18,12 +18,12 @@ export default function NavLinks() {
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfIVTr5wgiqlOv1JY8TM_86Nk7fO4bgeKhcABsZvy471mLknw/viewform?usp=dialog",
         internal: false,
       },
-      // {
-      //   id: "checklist",
-      //   name: "Checklist",
-      //   link: "/checklist",
-      //   internal: true,
-      // },
+      {
+        id: "packing-list",
+        name: "Packing List",
+        link: "/packing-list",
+        internal: true,
+      },
       // {
       //   id: "calendar",
       //   name: "Calendar",
