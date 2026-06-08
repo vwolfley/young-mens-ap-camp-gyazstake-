@@ -3,12 +3,14 @@ import { Link } from "react-router-dom"
 import docConfig from "../../config/DocConfig"
 import MedicalRelease from "../../docs/ym-camp-medical-forms-church-release.pdf"
 import PhotoReleaseDoc from "../../docs/photo-participant-release.pdf"
+import PackingList from "../../docs/Packing-List.pdf"
 
 import RegistrationImage from "../../images/registration-image.png"
 import MedicalReleaseImage from "../../images/medical-image.jpg"
 import PhotoReleaseImage from "../../images/photo-release-image.png"
 import PackingListImage from "../../images/packing-list.jpg"
 import DirectionsImage from "../../images/directions-image.jpg"
+import CampManualImage from "../../images/camp-manual-image.jpg"
 
 function InfoSection() {
   return (
@@ -141,6 +143,29 @@ function InfoSection() {
               </Link>
             </div>
           </div>
+
+          <div className="shadow-secondary-1 block rounded-lg bg-white">
+            <a href="#!">
+              <img
+                className="rounded-t-lg"
+                src={CampManualImage}
+                alt="Camp Manual"
+              />
+            </a>
+            <div className="text-surface p-6">
+              <h5 className="mb-2 text-xl leading-tight font-medium">Camp Manuals</h5>
+              <p className="mb-4 text-base">
+                Access the camp manuals and guidelines to ensure a smooth and enjoyable experience at Camp Heber.
+              </p>
+              <Link
+                to="/camp-manuals"
+                className="bg-accent-green border-accent-green inline-block rounded border px-8 py-4 pt-2.5 pb-2 text-xs leading-normal font-medium text-white uppercase shadow transition duration-150 ease-in-out hover:bg-green-700">
+                Camp Manuals
+              </Link>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>

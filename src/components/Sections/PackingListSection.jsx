@@ -1,3 +1,6 @@
+import PackingList from "../../docs/Packing-List.pdf"
+
+
 function PackingListSection() {
   return (
     <section className="body-font text-blue-950">
@@ -93,7 +96,7 @@ function PackingListSection() {
 
               <div className="mt-10 text-center">
                 <a
-                  href="/src/docs/Packing-List.pdf"
+                  href={PackingList}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-accent-green text-white text-lg font-bold py-4 px-8 border border-accent-green rounded shadow hover:opacity-90 transition-opacity cursor-pointer"
